@@ -69,4 +69,7 @@ Deleting a mapping for a client<br>
 
 # This will act a mapper layer between the marketplace API's and in house application. This will manage to acknowledge the client feed and to make it suitable for the ebay, Amazon and also Google Merchant feeds. 
 
+**Todo**
+A machine learning can also be performed after the system is getting mature to automatically update the mapping for the different feeds of the clients. This is all about the probability.
+
 
