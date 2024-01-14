@@ -23,3 +23,18 @@ https://support.google.com/merchants/answer/7439058?hl=en-GB
 The problem statement is that we receieve the data feeds from different sources and in a different formats. The formats can be CSV, Xlsx etc We need to train our system to map those feeds to suits the requirements of our destination entities.
 
 ![Screenshot (624)](https://www.nembol.com/wp-content/uploads/2023/01/import-from-csv.png)
+
+# POC - Raw Approach:
+The manage it, so we can send the correct data to our destination entities, we will map the source data feed. For this purpose we will define different data models. Those will be
+
+Base DTO Request Model:
+It will contain the common fields among all the targetted entities.
+
+And then we will define the sub request models inherited from Base Model as well. 
+
+Amazon DTO Request Model (Products, Catalogues, Inventory, Pricing, Reports etc)
+Ebay DTO Request Model (Products, Catalogues, Inventory, Pricing, Reports etc)
+Google DTO Request Model (Products, Catalogues, Inventory, Pricing, Reports etc)
+
+
+ 
