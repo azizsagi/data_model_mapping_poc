@@ -28,7 +28,7 @@ The problem statement is that we receieve the data feeds from different sources 
 The manage it, so we can send the correct data to our destination entities, we will map the source data feed. For this purpose we will define different data models. Those will be
 
 **Base DTO Request Model:** <br>
-It will contain the common fields among all the targetted entities. (<br>)
+It will contain the common fields among all the targetted entities. <br>
 
 And then we will define the sub request models inherited from Base Model as well. <br><br>
 
