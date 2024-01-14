@@ -37,8 +37,8 @@ And then we will define the sub request models inherited from Base Model as well
 **Google DTO Request Model** (Products, Catalogues, Inventory, Pricing, Reports etc)<br>
 
 
-**A sample DTO class can be look like as below**
-![Screenshot (624)](DB Model.JPG)
+**A sample DTO class can be look like as below** <br><br>
+![Screenshot (624)](sampleDataModel.JPG)<br><br>
 
 # Database
 A database will be there to save the clients mapping information. There will be below tables
@@ -46,5 +46,8 @@ A database will be there to save the clients mapping information. There will be 
 tbl_clients<br>
 tbl_mapping_catgories (e.g. amazon, ebay, Google and so on) <br>
 tbl_mappings (many to many relationship between clients and their mappings with the mapped information) <br>
+
+<br> ![Screenshot (624)](db.jpg)<br><br>
+
 
 
