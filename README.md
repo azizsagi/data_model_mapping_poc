@@ -50,4 +50,23 @@ tbl_mappings (many to many relationship between clients and their mappings with 
 <br> ![Screenshot (624)](db.jpg)<br><br>
 
 
+# UI in Action
+A UI (Web Page / Custom) will be developed to map the receievd data in CSV format with the available marketplace templates. The webpage will allow to Import the CSV and then map their fields with the corresponding data models. 
+The sample UI is below
+
+<br> ![Screenshot (624)](mapper.jpg)<br><br>
+<br><br>
+The mapper UI will provide all the required CRUD operations e.g.
+<br><br>
+Viewing a mapping for a client <br>
+Updating a mapping for a client<br>
+Deleting a mapping for a client<br>
+<br><br>
+
+**The mapping inforamtion will be saved in database. I have added like in serialize format or in json format.**
+
+
+
+# This will act a mapper layer between the marketplace API's and in house application. This will manage to acknowledge the client feed and to make it suitable for the ebay, Amazon and also Google Merchant feeds. 
+
 
