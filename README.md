@@ -54,7 +54,7 @@ tbl_mappings (many to many relationship between clients and their mappings with 
 A UI (Web Page / Custom) will be developed to map the receievd data in CSV format with the available marketplace templates. The webpage will allow to Import the CSV and then map their fields with the corresponding data models. 
 The sample UI is below
 
-<br> ![Screenshot (624)](mapper.jpg)<br><br>
+<br> ![Screenshot (624)](mapper.png)<br><br>
 <br><br>
 The mapper UI will provide all the required CRUD operations e.g.
 <br><br>
